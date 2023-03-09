@@ -20,6 +20,8 @@ public class Challange1 {
         double sum_value = (0.40 * FEScore + 0.35 * MEScore + 0.25 * AScore);
 
         System.out.println(nama+" NIlai akhirnya adalah "+sum_value);
+
+        keyboard.close();
     }
 
 }
