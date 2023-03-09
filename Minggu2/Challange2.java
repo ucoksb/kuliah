@@ -14,6 +14,7 @@ public class Challange2 {
             i = o + i;
         }
         System.out.println("Output : " + i);
-        keyboard.close();
+        keyboard.close();        
     }
+
 }
