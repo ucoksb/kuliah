@@ -5,9 +5,11 @@ public class Week1InputOutput {
         
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter an integer: ");
-        int number = input.nextInt();
-        System.out.print("You entered " + number);
+        System.out.print("Enter an first integer: ");
+        int number1 = input.nextInt();
+        System.out.print("Enter an second integer: ");
+        int number2 = input.nextInt();
+        System.out.println("\nYou first integer is " + number1 + "\nThe second integer is "+number2 );
 
         // closing the scanner object
         input.close();

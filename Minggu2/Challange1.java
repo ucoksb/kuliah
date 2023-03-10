@@ -9,20 +9,20 @@ public class Challange1 {
         final double sum_value;
 
         Scanner keyboard = new Scanner(System.in);
-
-        System.out.print("Enter your name : ");
+        System.out.println("---------------------------------------------");
+        System.out.print("\t  Enter your name : ");
         nama = keyboard.nextLine();
-        System.out.print("Enter Final Exam Score = ");
+        System.out.print("\t Enter Final Exam Score = ");
         FEScore = keyboard.nextInt();
-        System.out.print("Enter Middle Exam Score = ");
+        System.out.print("\tEnter Middle Exam Score = ");
         MEScore = keyboard.nextInt();
-        System.out.print("Enter Assignment Score = ");
+        System.out.print("\t Enter Assignment Score = ");
         AScore = keyboard.nextInt();
+        System.out.println("    -----------------------------------");
         sum_value = (0.40 * FEScore + 0.35 * MEScore + 0.25 * AScore);
 
         if (sum_value >= 85 && sum_value < 100) {
             grade = "A";
-
         } else if (sum_value >= 80 && sum_value < 85) {
             grade = "A-";
         } else if (sum_value >= 75 && sum_value < 80) {
@@ -40,7 +40,9 @@ public class Challange1 {
         } else {
             grade = "E";
         }
-        System.out.print("\nHi " + nama + "\nyour final score is " + grade);
+        System.out.println("\t\tHi " + nama + "\n\tYour final score is " + sum_value);
+        System.out.println("\t  The letter rade is " + grade);
+        System.out.println("---------------------------------------------");
 
         keyboard.close();
     }
