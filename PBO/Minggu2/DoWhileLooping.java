@@ -1,7 +1,7 @@
 package Minggu2;
 
 public class DoWhileLooping {
-    public static void main(System[] args) {
+    public static void main(String[] args) {
         int i = 0;
         do
         {
