@@ -1,4 +1,4 @@
-package Minggu2;
+package Minggu2.Looping;
 public class WhileLooping {
     public static void main(String[] args) {
         int i = 0;

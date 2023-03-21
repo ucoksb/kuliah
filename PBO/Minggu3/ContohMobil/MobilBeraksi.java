@@ -1,4 +1,4 @@
-package Minggu3;
+package Minggu3.ContohMobil;
 
 public class MobilBeraksi{
     public static void main(String[] arggs){

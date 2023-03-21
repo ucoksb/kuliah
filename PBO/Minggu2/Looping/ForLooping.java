@@ -1,4 +1,4 @@
- package Minggu2;
+ package Minggu2.Looping;
 
 public class ForLooping {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Minggu2;
+package Minggu2.Looping;
 
 public class DoWhileLooping {
     public static void main(String[] args) {

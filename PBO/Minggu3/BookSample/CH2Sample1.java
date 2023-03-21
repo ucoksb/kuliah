@@ -8,10 +8,10 @@ File: Ch2Samplet. java
 
 class Ch2Sample1 {
     public static void main(String[] args) {
-    JFrame myWindow;
-    myWindow = new JFrame();
-    myWindow. setSize(300, 200);
-    myWindow.setTitle("My First Java Program");
-    myWindow. setVisible(true);
+        JFrame myWindow;
+        myWindow = new JFrame("Program Java Pertama Agis");
+        myWindow.setSize(600, 300);
+        //myWindow.setTitle("Program Java Pertama Agis");
+        myWindow.setVisible(true);
     }
 }

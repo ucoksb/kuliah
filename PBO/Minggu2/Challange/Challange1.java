@@ -1,4 +1,4 @@
-package Minggu2;
+package Minggu2.Challange;
 
 import java.util.Scanner;
 
