@@ -1,0 +1,41 @@
+div{
+    background-color: aquamarine;
+}
+
+span{
+    background-color: saddlebrown;
+}
+
+.nav a{
+    background-color: brown;
+}
+
+.nav li{
+    display: inline-block;
+}
+
+.link a{
+    background-color: brown;
+}
+
+.kotak{
+    width: 50%;
+    height: 150px;
+    background-color: orangered;
+    display: inline-block;
+    overflow: auto;
+}
+.kotak2{
+    width: 150px;
+    height: 150px;
+    background-color: orangered;
+    display: inline-block;
+    overflow: scroll;
+}
+.kotak3{
+    width: 200px;
+    height: 200px;
+    background-color: orangered;
+    display: inline-block;
+    overflow: hidden;
+}
