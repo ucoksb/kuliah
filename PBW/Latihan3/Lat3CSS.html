@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 3 CSS</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        #header{
+            padding: 10px;
+            background-color: aquamarine;
+        }
+        .navBar img{
+            padding-right: 20px;
+        }
+        #menu{
+            padding: 30px;
+            background-color: bisque;
+        }
+        .center{
+            text-align: center;
+        }
+        #konten{
+            background-color: yellow;
+        }
+        li{
+            list-style-type: '- ';
+        }
+        th, #s{
+            border:1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table cellspacing="0">
+        <tr>
+            <td colspan="2" id="header">
+                <div class="navBar">
+                    <img src="https://i.postimg.cc/2yqNJJB8/Picsart-23-03-21-09-22-16-583.png" alt="unsika" style="width: 70px; float: left;">
+                    <h2>FAKULTAS ILMU KOMPUTER</h2>
+                    <h3>UNIVERSITAS SINGAPERBANGSA KARAWANG</h3>
+                    <h4> HS Ronggowaluyo, Karawang, 641361</h4>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td id="menu" width="30%">
+                <div class="left">
+                    <header>Daftar Dosen</header>
+                    <header>Daftar Mata Kuliah</header>
+                    <ul>
+                        <li>Semester 1</li>
+                        <li>Semester 2</li>
+                        <li>Semester 3</li>
+                        <li>Semester 4</li>
+                        <li>Semester 5</li>
+                        <li>Semester 6</li>
+                        <li>Semester 7</li>
+                        <li>Semester 8</li>
+                    </ul>
+                    <header>Update Biodata</header>
+                </div>
+            </td>
+            <td id="konten">
+                <center>
+                    <table bgcolor = "grey" cellspacing="5" border="1">
+                        <thead>Daftar Dosen Fasilkom</thead> 
+                        <tr bgcolor = "red">
+                            <th>No</th>
+                            <th>Nama</th>
+                            <th>NIDN</th>
+                            <th>Home Base</th>
+                        </tr>
+                        <tr id="s">
+                            <td>1</td>
+                            <td>Agisni</td>
+                            <td>0001</td>
+                            <td rowspan="3" class="center">Fasilkom</td>
+                        </tr>
+                        <tr id="s">
+                            <td>2</td>
+                            <td>Biidnilahi</td>
+                            <td>0002</td>
+                        </tr>
+                        <tr id="s">
+                            <td>3</td>
+                            <td>Muhamad</td>
+                            <td>0003</td>
+                        </tr>
+                    </table>
+                </center>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

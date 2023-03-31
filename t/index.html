@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tic Tac Toe</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+<!-- Stylesheet -->
+<style>*{padding:0;margin:0;box-sizing:border-box;font-family:"Raleway",sans-serif;}
+    body{height:120vh;background:linear-gradient(135deg,#8052ec,#d161ff);}
+    html{font-size:16px;}
+    .wrapper{position:absolute;transform:translate(-50%,-50%);top:50%;left:50%;}
+    .container{width:70vmin;height:70vmin;display:flex;flex-wrap:wrap;gap:2vmin;align-content:center;}
+    .pick{width:70vmin;height:auto;display:flex;flex-wrap:wrap;gap:2vmin;}
+    .button-option1{background:#ffffff;height:22vmin;width:22vmin;border:none;border-radius:8px;font-size:12vmin;color:#d161ff;box-shadow:0 0 15px rgba(0,0,0,0.1);}
+    .button-option12{background:#ffffff;height:22vmin;width:22vmin;border:none;border-radius:8px;font-size:12vmin;color:#d161ff;box-shadow:0 0 15px rgba(0,0,0,0.1);}
+    .button-option123{background:#ffffff;height:22vmin;width:50vmin;border:none;border-radius:8px;font-size:5vmin;color:#d161ff;box-shadow:0 0 15px rgba(0,0,0,0.1);}
+    #restart{font-size:1.3em;text-align:center;padding:1em;border-radius:8px;background-color:#0a0027;color:#ffffff;border:none;position:relative;margin:25px auto 25px auto;display:block;}
+    .popup{background:linear-gradient(135deg,#8052ec,#d161ff);height:100%;width:100%;position:absolute;display:flex;z-index:2;align-items:center;justify-content:center;flex-direction:column;gap:1em;font-size:12vmin;}
+    #new-game{font-size:0.6em;padding:0.5em 1em;background-color:#0a0027;color:#ffffff;border-radius:0.2em;border:none;}
+    #message{color:#ffffff;text-align:center;font-size:1em;}
+    .popup.hide{display:none;}
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <button class="button-option1">❤️</button>
+            <button class="button-option1">X</button>
+            <button class="button-option1">X</button>
+            <button class="button-option1">X</button>
+            <button class="button-option1">❤️</button>
+            <button class="button-option1">❤️</button>
+            <button class="button-option1">X</button>
+            <button class="button-option1">X</button>
+            <button class="button-option1" id="box"></button>
+        </div>
+        <div id="restart">Erika, Do You Miss Me?</div>
+        <div class="pick">
+            <button onclick="fillBox1()" class="button-option1">❤️<br>
+                <p style="font-size: 3vmin;">YES</p>
+            </button>
+            <div class="button-option1"
+                style="font-size: 3vmin; text-align: center; justify-content: center; display: flex; align-items: center;">
+                < Pick One>
+            </div>
+            <button onclick="fillBox2()" class="button-option1">X <br>
+                <p style="font-size: 3vmin;">NO</p>
+            </button>
+        </div>
+    </div>
+    <!-- Script -->
+    <script>
+        var kotak = document.getElementById("box").innerHTML;
+
+        function fillBox1() {
+            document.getElementById("box").innerHTML = "❤️";
+            undoStack.push(box.innerHTML);
+            window.location.href = "https://youtu.be/fKRtnMYMW08?t=42";
+        }
+
+        function fillBox2() {
+            alert("Diihhhh ko ga kangen sih:( cepet isi lagii!!!")
+            document.getElementById("box").innerHTML = kotak;
+            undoStack.push(box.innerHTML);
+            document.getElementById("box").innerHTML = "X";
+        }
+    </script>
+</body>
+
+</html>
